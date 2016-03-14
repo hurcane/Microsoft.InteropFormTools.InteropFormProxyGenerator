@@ -19,6 +19,4 @@ There is no binary version of this extension available as a download. You can bu
 
 Support Forums
 =================================
-There is no official support for this project. If you find an issue, you can add it in the [issue tracker](https://github.com/hurcane/microsoft-interop-forms-toolkit-extension/issues).
-
-> Written with [StackEdit](https://stackedit.io/).
+There is no official support for this project. If you find an issue, you can add it in the [issue tracker]https://github.com/hurcane/Microsoft.InteropFormTools.InteropFormProxyGenerator/issues).
