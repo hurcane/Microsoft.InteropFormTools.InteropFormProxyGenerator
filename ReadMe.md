@@ -15,6 +15,6 @@ Developer Documentation
 There is no binary version of this extension available as a download. You can build it yourself and make the resulting VSIX file available to your developers.
 Support Forums
 =================================
-There is no official support for this project. If you find an issue, you can add it in the [issue tracker](https://github.com/google/microsoft-interop-forms-toolkit-extension/issues).
+There is no official support for this project. If you find an issue, you can add it in the [issue tracker](https://github.com/hurcane/microsoft-interop-forms-toolkit-extension/issues).
 
 > Written with [StackEdit](https://stackedit.io/).
