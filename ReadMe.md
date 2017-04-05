@@ -12,10 +12,11 @@ Supported Environments
 * Visual Studio 2012
 * Visual Studio 2013
 * Visual Studio 2015
+* Visual Studio 2017
 
 Usage
 =================================
-There is no binary version of this extension available as a download. You can build it yourself and make the resulting VSIX file available to your developers.
+If you are already familiar with generating wrapper classes using the Microsoft Interop Forms Toolkit in Visual Studio 2010, the experience is identical. Otherwise, review the documentation that is included with the Toolkit.
 
 Support Forums
 =================================
