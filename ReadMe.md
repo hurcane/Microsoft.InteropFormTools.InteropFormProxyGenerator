@@ -5,7 +5,8 @@ The official Microsoft Interop Forms Toolkit cannot be used in Visual Studio ver
 
 Requirements 
 =================================
-* [Microsoft Interop Forms Toolkit 2.1](https://www.microsoft.com/en-us/download/details.aspx?id=3264)
+* [Microsoft Interop Forms Toolkit 2.1](https://web.archive.org/web/20200810070025if_/https://download.microsoft.com/download/3/7/D/37D90824-1BE8-4085-920E-54812C045A55/InteropFormToolsInstaller.msi)
+Note: Microsoft removed the official download page. This link downloads from archive.org.
 
 Supported Environments
 =================================
