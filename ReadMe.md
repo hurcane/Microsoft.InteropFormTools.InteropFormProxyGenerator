@@ -10,10 +10,9 @@ Note: Microsoft removed the official download page. This link downloads from arc
 
 Supported Environments
 =================================
-* Visual Studio 2012
-* Visual Studio 2013
 * Visual Studio 2015
 * Visual Studio 2017
+* Visual Studio 2019
 
 Usage
 =================================
