@@ -6,13 +6,14 @@ The official Microsoft Interop Forms Toolkit cannot be used in Visual Studio ver
 Requirements 
 =================================
 * [Microsoft Interop Forms Toolkit 2.1](https://web.archive.org/web/20200810070025if_/https://download.microsoft.com/download/3/7/D/37D90824-1BE8-4085-920E-54812C045A55/InteropFormToolsInstaller.msi)
-Note: Microsoft removed the official download page. This link downloads from archive.org.
+>[!NOTE]
+>Microsoft removed the official download page. This link downloads from archive.org.
 
 Supported Environments
 =================================
-* Visual Studio 2015
-* Visual Studio 2017
-* Visual Studio 2019
+* Visual Studio 2022
+>[!NOTE]
+>Earlier releases support older versions of Visual Studio.
 
 Usage
 =================================
