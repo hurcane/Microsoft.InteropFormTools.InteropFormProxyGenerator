@@ -1,16 +1,15 @@
 ﻿Imports System
 Imports System.ComponentModel.Design
-Imports System.Globalization
-Imports Microsoft.VisualStudio.Shell
-Imports Microsoft.VisualStudio.Shell.Interop
 Imports System.Windows.Forms
-Imports EnvDTE
-Imports EnvDTE80
 Imports System.Collections.Generic
 Imports System.IO
 Imports System.CodeDom
 Imports System.CodeDom.Compiler
 Imports Microsoft.VisualBasic
+Imports Microsoft.VisualStudio.Shell
+Imports EnvDTE
+Imports EnvDTE80
+
 
 ''' <summary>
 ''' Command handler
@@ -120,17 +119,19 @@ Public NotInheritable Class GenerateInteropFormProxyClasses
 #Region " Private Methods "
     Private Sub LoadSupportedTypes()
         ' Load list of types that are allowed to be used in members.
-        _supportedTypes = New List(Of Type)
-        _supportedTypes.Add(GetType(Int32))
-        _supportedTypes.Add(GetType(String))
-        _supportedTypes.Add(GetType(Boolean))
-        _supportedTypes.Add(GetType(Object))
+        _supportedTypes = New List(Of Type) From {
+            GetType(Integer),
+            GetType(String),
+            GetType(Boolean),
+            GetType(Object)
+        }
     End Sub
 
     Private m_blnProxiesGenerated As Boolean
     Private Sub CreateInteropFormProxiesForSolution()
         _applicationObject.StatusBar.Text = My.Resources.ADDIN_STATUS_GENERATING
         m_blnProxiesGenerated = False
+
         For Each assemblyProj As Project In _applicationObject.Solution.Projects
             If assemblyProj.ProjectItems IsNot Nothing AndAlso (assemblyProj.ProjectItems.Count > 0) Then
                 CreateInteropFormProxiesForProject(assemblyProj, assemblyProj.ProjectItems)
